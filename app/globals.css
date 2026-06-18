@@ -184,6 +184,16 @@
     border-color: var(--border-20);
     color: var(--text-70);
   }
+  /* Secondary CTA: outline white, fills subtly on hover. No new accent color. */
+  .btn-secondary {
+    border-color: var(--border-20);
+    color: #ffffff;
+    background: transparent;
+  }
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.45);
+  }
 
   /* ============ Section head (idx | content) ============ */
   .sec-head {

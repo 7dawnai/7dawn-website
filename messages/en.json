@@ -1,613 +1,337 @@
 {
   "meta": {
-    "title": "7dawn · 3Studio — AI-native platform for complex engineering",
-    "description": "3Studio is five workspaces where engineering experts work alongside agent crews. Under the Harness governance layer, tacit organizational knowledge crystallizes into quantifiable engineering intelligence."
+    "title": "7dawn · The Self-Evolving Industrial AI Engineer",
+    "description": "7dawn makes AI do real engineering on the factory floor — from concept design to multiphysics validation to manufacturing, getting smarter the more you use it. 3Studio for engineering teams, vibe CAE for individual engineers."
   },
   "nav": {
-    "spaces": "Workspaces",
-    "harness": "Harness",
-    "evolution": "Evolution",
-    "market": "Market"
-  },
-  "hero": {
-    "label": "// 7DAWN · SINGULARITY DAWN",
-    "title1": "Beyond Singularity",
-    "title2": "Awaken the Stars",
-    "sub": "AI-native engineering · Lighting every star of New Space",
-    "cta": "Contact Us",
-    "scroll": "SCROLL"
-  },
-  "pitch": {
-    "title1": "Have engineering experts work with",
-    "titleEm": "an Agent crew",
-    "lead": "3Studio is the AI-native collaboration and execution platform for complex engineering — one product, five workspaces. Let specialists in design, verification, flow, and operations each lead an Agent crew, collaborating under Harness governance, so that tacit organizational knowledge crystallizes into quantifiable engineering intelligence."
+    "products": "Products",
+    "platform": "Platform",
+    "industries": "Industries",
+    "docs": "Docs",
+    "company": "Company",
+    "demo": "Book a demo",
+    "tryVibe": "Try vibe CAE"
   },
   "contact": {
     "email": "EMAIL",
     "phone": "PHONE"
   },
-  "why": {
-    "titleBefore": "Three forces converging — ",
-    "titleEm": "a platform-level window opens",
-    "titleAfter": ".",
-    "lead": "Software engineering has Cursor. Hardware and systems engineering still don't have an AI-native platform.",
-    "items": {
-      "0": {
-        "kicker": "01 · MODEL",
-        "h3": "Agents move from Q&A to execution",
-        "bullets": {
-          "0": "From \"answering questions\" to \"running STK simulations and drafting verification reports\"",
-          "1": "Cursor hit $20B ARR at month 33",
-          "2": "Agents can now perform real engineering tasks"
-        }
-      },
-      "1": {
-        "kicker": "02 · SOFTWARE",
-        "h3": "Industrial software enters the AI-native layer",
-        "bullets": {
-          "0": "IDC: 22.4% penetration of AI-augmented industrial software by 2029",
-          "1": "China core industrial software TAM ¥76.5B in 2029",
-          "2": "CAD / CAE need an AI execution layer on top"
-        }
-      },
-      "2": {
-        "kicker": "03 · POLICY",
-        "h3": "The policy window is explicit",
-        "bullets": {
-          "0": "2026 government work report: \"promote AI agents\"",
-          "1": "\"Scale commercial AI adoption in priority industries\"",
-          "2": "\"Accelerate satellite internet development\""
-        }
-      }
-    }
+  "hero": {
+    "label": "// 7DAWN · SINGULARITY DAWN",
+    "title1": "AI that does real engineering",
+    "title2": "— and evolves.",
+    "subEm": "A self-evolving industrial engineering engine",
+    "sub": "From concept design to multiphysics validation to manufacturing — gets smarter the more you use it.",
+    "ctaPrimary": "Book a demo",
+    "ctaSecondary": "Try vibe CAE",
+    "scroll": "SCROLL"
+  },
+  "trust": {
+    "gaia": {
+      "value": "#1 on GAIA",
+      "metric": "91.36",
+      "note": "Our in-house agent core tops the global GAIA benchmark on general engineering tasks (as of 2026-02)",
+      "linkLabel": "View leaderboard",
+      "href": "https://huggingface.co/spaces/gaia-benchmark/leaderboard"
+    },
+    "leak": {
+      "value": "Verification miss-rate ↓70%",
+      "note": "Aerospace test-matrix scenario · internal baseline, not a global promise"
+    },
+    "scope": {
+      "value": "Full process",
+      "note": "Concept design → manufacturing"
+    },
+    "physics": {
+      "value": "Multiphysics",
+      "note": "Structural / thermal / fluid / EM / electronics / control"
+    },
+    "badge": "Auditable · Reversible · Human-in-the-loop"
   },
   "problem": {
-    "titleLine1": "Complex engineering still runs on",
-    "titleEm": "manual labor + tool fragmentation",
+    "titleLine1": "Industrial R&D is slow and costly —— ",
+    "titleEm": "costlier still is the design you never got to make",
     "titleAfter": ".",
-    "lead": "The gap is not a missing AI feature — it's the absence of a trustworthy AI-native engineering execution layer. A single satellite passes through 10+ tools; a validation cycle takes 2-4 weeks; rework consumes 30-40% of the design schedule.",
+    "lead": "It is not a missing AI feature, but a missing AI that does real engineering on the floor and can be trusted. A complex design crosses 10+ tools, validation runs for weeks, and rework eats a large share of the schedule.",
     "items": {
       "0": {
         "no": "01",
-        "tag": "SILO",
+        "tag": "Silos",
         "h4": "Tool silos",
-        "body": "STK / MATLAB / Thermal Desktop / CATIA / DOORS — engineers shuffle data by hand across 10+ windows.",
-        "quant": "20-30% of working hours"
+        "body": "CAD / CAE / EDA / simulation / standards — engineers shuttle data by hand across a dozen windows.",
+        "quant": "~1/4 of work hours"
       },
       "1": {
         "no": "02",
-        "tag": "KNOWLEDGE",
-        "h4": "Knowledge trapped in heads",
-        "body": "“A 5° solar-array tilt shifts thermal boundaries” — lives only in the lead engineer's head; when they leave, so does the knowledge.",
-        "quant": "New hire ramp: 6-12 months"
+        "tag": "Knowledge",
+        "h4": "Knowledge locked in heads",
+        "body": "“Which boundary does this parameter touch” lives only in a senior chief engineer’s head; people leave, knowledge scatters.",
+        "quant": "Ramp-up takes months"
       },
       "2": {
         "no": "03",
-        "tag": "COLLAB",
-        "h4": "Cross-discipline breakdown",
-        "body": "Structural changes ripple to thermal and power, but communication happens in meetings — rework rates stay stubbornly high.",
-        "quant": "Rework: 30-40% of design cycle"
+        "tag": "Hand-off",
+        "h4": "Broken cross-discipline hand-off",
+        "body": "Structural, thermal and EM all couple; cross-discipline impact travels via meetings, and rework stays high.",
+        "quant": "Rework eats the schedule"
       },
       "3": {
         "no": "04",
-        "tag": "PROCESS",
-        "h4": "Process runs on nagging",
-        "body": "Reviews, changes, BOM, AIT — chased over email and WeChat. No automated flow, no audit trail.",
-        "quant": "Admin headcount: 15-25% of team"
+        "tag": "Verify",
+        "h4": "Verification is mostly manual",
+        "body": "Hundreds to thousands of test items per model — configure, run, compare, write reports, one by one.",
+        "quant": "A round takes weeks"
       },
       "4": {
         "no": "05",
-        "tag": "VERIFY",
-        "h4": "Verification is mostly manual",
-        "body": "200+ tests per satellite — each configured, executed, compared, and written up by hand. Massive duplicated effort.",
-        "quant": "A single verification cycle: 2-4 weeks"
+        "tag": "Explore",
+        "h4": "No room to explore better designs",
+        "body": "All the time goes to running process; the better configurations that would actually win never get tried.",
+        "quant": "Missed designs, uncounted"
       },
       "5": {
         "no": "06",
-        "tag": "TRUST",
+        "tag": "Trust",
         "h4": "Black-box AI is unusable",
-        "body": "Aerospace / aviation / nuclear — failure costs are extreme. You need auditable, explainable, rollback-safe AI.",
-        "quant": "Generic-LLM compliance rate < 40%"
-      }
-    }
-  },
-  "spaces": {
-    "titleBefore": "One product — ",
-    "titleEm": "five workspaces",
-    "titleAfter": ".",
-    "lead": "Switch between them like Notion or Figma — all five share the same Core OS underneath; each surface is shaped to its scenario. Agent crews specialize, humans stay in the loop on review.",
-    "items": {
-      "0": {
-        "code": "S-01",
-        "numeral": "i",
-        "nameEm": "Design",
-        "nameText": "Design Space",
-        "desc": "Concept design / simulation modeling / parameter exploration / technical documentation. Agents orchestrate STK and MATLAB for parameter sweeps; humans vet the rationale.",
-        "tags": [
-          "Multi-Agent",
-          "Simulation",
-          "DOE"
-        ],
-        "outlinePrefix": "→ ",
-        "outlineBold": "Design package",
-        "outlineSuffix": ": plan + simulation + docs"
-      },
-      "1": {
-        "code": "S-02",
-        "numeral": "ii",
-        "nameEm": "Verify",
-        "nameText": "Verify Space",
-        "desc": "Test matrices / simulation-based validation / metric checks / failure attribution. Parses GJB standards to auto-generate matrices — miss rate down 70%.",
-        "tags": [
-          "Test Matrix",
-          "GJB",
-          "Evidence"
-        ],
-        "outlinePrefix": "→ ",
-        "outlineBold": "Verification report",
-        "outlineSuffix": " + evidence bundle"
-      },
-      "2": {
-        "code": "S-03",
-        "numeral": "iii",
-        "nameEm": "Flow",
-        "nameText": "Flow Space",
-        "desc": "BOM / change / review / AIT / supply chain / quality trace. Change impact chains propagate automatically, preventing downstream rework.",
-        "tags": [
-          "BOM",
-          "Change",
-          "Supply"
-        ],
-        "outlinePrefix": "→ ",
-        "outlineBold": "Closed-loop change",
-        "outlineSuffix": " + delivery evidence"
-      },
-      "3": {
-        "code": "S-04",
-        "numeral": "iv",
-        "nameEm": "Operate",
-        "nameText": "Operate Space",
-        "desc": "Telemetry / anomalies / RCA / runbooks / release rollback. Operations staffing goes from 0.5 person per satellite to 1 per 10-20 satellites.",
-        "tags": [
-          "Telemetry",
-          "RCA",
-          "OrbitOps"
-        ],
-        "outlinePrefix": "→ ",
-        "outlineBold": "Ops report",
-        "outlineSuffix": " + response log"
-      },
-      "4": {
-        "code": "S-05",
-        "numeral": "v",
-        "nameEm": "Command",
-        "nameText": "Command Space",
-        "desc": "Program oversight + evolution dashboard. Leaders watch autonomous rate, intervention frequency, and first-pass rate trend in real time.",
-        "tags": [
-          "PMO",
-          "Evolution",
-          "KPI"
-        ],
-        "outlinePrefix": "→ ",
-        "outlineBold": "Program dashboard",
-        "outlineSuffix": " + evolution metrics"
+        "body": "Aerospace / high-end manufacturing — the cost of error is extreme; AI must be auditable, explainable, reversible.",
+        "quant": "Generic LLMs rarely comply"
       }
     },
-    "pack": {
-      "kicker": "Industry Pack · domain config",
-      "title": "Pick an industry template = load toolchain + standards + knowledge base",
-      "chip0": "Aerospace",
-      "chip1": "UAV",
-      "chip2": "Heavy Equipment",
-      "chip3": "Energy"
-    },
-    "orbitOps": {
-      "body": "= Operate Space + Aerospace config — a flagship brand that can ship standalone"
-    }
+    "whyNow": "Why now: models moved from answering to executing, industrial software is going AI-native, and policy is actively pushing industrial agents — the window is opening."
   },
-  "architecture": {
-    "titleBefore": "One ",
-    "titleEm": "Core OS",
-    "titleAfter": " — shared across all five workspaces.",
-    "lead": "From outside, workspaces; from inside, one product with a coherent experience. Engineering maintains one OS; each industry just swaps the Pack.",
-    "tiers": {
-      "0": {
-        "label": "Tier A",
-        "name": "Workspaces",
-        "note": "Five workspaces",
-        "cells": [
-          {
-            "name": "Design",
-            "note": "Design agents"
-          },
-          {
-            "name": "Verify",
-            "note": "Verification agents"
-          },
-          {
-            "name": "Flow",
-            "note": "Process agents"
-          },
-          {
-            "name": "Operate",
-            "note": "Ops agents"
-          },
-          {
-            "name": "Command",
-            "note": "Oversight + evolution"
-          }
-        ]
-      },
-      "1": {
-        "label": "Tier B",
-        "name": "Core OS",
-        "note": "Platform foundation",
-        "cells": [
-          {
-            "name": "Multi-Agent Runtime",
-            "note": "Multi-agent orchestration"
-          },
-          {
-            "name": "Harness Engine",
-            "note": "Governance / audit / rollback"
-          },
-          {
-            "name": "Memory & Evolution",
-            "note": "M0 / M1 / M2 + evolution"
-          },
-          {
-            "name": "Adaptation Workbench",
-            "note": "Domain adaptation bench"
-          },
-          {
-            "name": "Tool Adapter SDK",
-            "note": "Toolchain interface"
-          }
-        ]
-      },
-      "2": {
-        "label": "Tier C",
-        "name": "Industry Packs",
-        "note": "Domain kits",
-        "cells": [
-          {
-            "name": "Aerospace",
-            "note": "STK / GMAT / MATLAB · GJB"
-          },
-          {
-            "name": "UAV",
-            "note": "Flight control / ground · airworthiness"
-          },
-          {
-            "name": "Automotive",
-            "note": "CATIA / NASTRAN · auto standards"
-          },
-          {
-            "name": "Energy",
-            "note": "Energy standards · toolchain"
-          }
-        ]
-      }
-    }
-  },
-  "harness": {
-    "titleBefore": "AI in a harness — ",
-    "titleEm": "auditable, rollback-safe, quantifiable",
+  "products": {
+    "titleBefore": "One self-evolving agent platform, ",
+    "titleEm": "two ways to use it",
     "titleAfter": ".",
-    "lead": "In industries where mistakes are expensive, agents can't execute freely. Harness Engine builds whitelisting, tiered approval, full audit, and one-click rollback into the platform from day one — a paradigm, not a feature.",
-    "principles": {
-      "0": {
-        "h4": "Tool whitelist",
-        "body": "Agents can only call approved tools within approved parameter ranges; cross-org policy ships from one place."
-      },
-      "1": {
-        "h4": "Tiered approval",
-        "body": "Auto / semi-auto / manual. High-risk actions queue for a human signature; low-risk actions pass through."
-      },
-      "2": {
-        "h4": "Full audit log",
-        "body": "Every tool call, every decision, every prompt — hash-chained, archived, and ready for compliance review."
-      },
-      "3": {
-        "h4": "One-click rollback",
-        "body": "Any step can revert. Design snapshots, simulation seeds, document versions — all time-travelable."
-      },
-      "4": {
-        "h4": "Evolution is quantifiable",
-        "body": "Autonomous rate, intervention frequency, first-pass rate, knowledge coverage — leaders steer by the curves."
-      }
+    "lead": "7dawn is the foundation; there are two entry points for two audiences.",
+    "studio": {
+      "name": "3Studio",
+      "for": "For engineering teams · Enterprise",
+      "desc": "An aerospace-grade AI engineering workspace — let teams run design, verification, flow and operations with an agent crew, fully governed and auditable.",
+      "cta": "Book a demo"
     },
-    "demo": {
-      "head": {
-        "session": "audit-log · session #A7F-2041",
-        "anchored": "2026-04 · anchored"
-      },
-      "rows": [
-        {
-          "ix": "01",
-          "content": "call <b>stk.propagate</b>(orbit=500km-SSO)",
-          "sig": "sig: sha256:7b2c…e1",
-          "rc": "ok"
-        },
-        {
-          "ix": "02",
-          "content": "call <b>matlab.designATC</b>(gain_mtx)",
-          "sig": "sig: sha256:11af…4c",
-          "rc": "ok"
-        },
-        {
-          "ix": "03",
-          "content": "write <b>design_pkg/main.docx</b>(draft)",
-          "sig": "— awaiting review —",
-          "rc": "hold"
-        },
-        {
-          "ix": "04",
-          "content": "attempt <b>supplier.notify</b>(BOM change)",
-          "sig": "policy: L2 approval required",
-          "rc": "deny"
-        },
-        {
-          "ix": "05",
-          "content": "rollback to snapshot <b>#20260411-1704</b>",
-          "sig": "reverted by: Li Chengze",
-          "rc": "ok"
-        },
-        {
-          "ix": "06",
-          "content": "call <b>thermal.run</b>(case=hot-soak)",
-          "sig": "2.4 GB evidence archived",
-          "rc": "ok"
-        }
-      ]
+    "vibe": {
+      "name": "vibe CAE",
+      "for": "For individual engineers · Self-serve",
+      "desc": "Natural-language multiphysics simulation — upload CAD / STEP and run.",
+      "cta": "Try it"
     }
   },
-  "scenarios": {
-    "titleLine1": "From design to delivery to orbit —",
-    "titleEm": "validated in real aerospace programs",
+  "capability": {
+    "titleBefore": "One self-evolving agent foundation, ",
+    "titleEm": "across the whole industrial design flow",
     "titleAfter": ".",
-    "lead": "Every scenario has a defined input, agent execution, human review, output, and ROI. Phase 1 punches through Design + Verify; Phase 2 extends to Flow + Operate.",
-    "items": {
-      "0": {
-        "scn": "SCN · A",
-        "cat": "Design",
-        "h4em": "Satellite GNC",
-        "h4text": "design",
-        "flow": {
-          "in": "Orbit 500km SSO · pointing 0.1°",
-          "agt": "STK orbit sim · MATLAB control law · 50+ parameter sweep",
-          "hum": "Vet the rationale · pick the optimum",
-          "out": "Design package + comparison report + change log"
-        },
-        "roi": {
-          "bigBefore": "3w ",
-          "bigEm": "→",
-          "bigAfter": " 5d",
-          "small": "ROI 37×"
-        }
-      },
-      "1": {
-        "scn": "SCN · D",
-        "cat": "Verify",
-        "h4em": "Thermal",
-        "h4text": "verification",
-        "flow": {
-          "in": "Thermal design · GJB standards list",
-          "agt": "Parse standards → 200+ test matrix · Thermal Desktop runs",
-          "hum": "Vet matrix completeness · confirm failures",
-          "out": "Verification report + evidence bundle + compliance matrix"
-        },
-        "roi": {
-          "bigBefore": "2w ",
-          "bigEm": "→",
-          "bigAfter": " 2d",
-          "small": "Miss rate ↓ 70%"
-        }
-      },
-      "2": {
-        "scn": "SCN · G",
-        "cat": "Flow",
-        "h4em": "Design change",
-        "h4text": "end-to-end",
-        "flow": {
-          "in": "Change request \"solar array X → Y\"",
-          "agt": "Trace impact chain (structure / thermal / power / attitude / BOM)",
-          "hum": "Approve change · confirm scope completeness",
-          "out": "Closed-loop change log · downstream docs auto-updated"
-        },
-        "roi": {
-          "bigBefore": "4w ",
-          "bigEm": "→",
-          "bigAfter": " 3d",
-          "small": "Rework avoided ¥0.5-2M"
-        }
-      },
-      "3": {
-        "scn": "SCN · J",
-        "cat": "OrbitOps",
-        "h4em": "Constellation",
-        "h4text": "in-orbit ops",
-        "flow": {
-          "in": "Real-time telemetry from 100 satellites · constellation config",
-          "agt": "Telemetry semantics · anomaly detection · correlate historical RCA",
-          "hum": "Confirm severity · approve response plan",
-          "out": "Response log · RCA report · health dashboard"
-        },
-        "roi": {
-          "bigBefore": "50 ",
-          "bigEm": "→",
-          "bigAfter": " 10",
-          "small": "¥12M saved per year"
-        }
-      }
-    }
+    "lead": "Stages run across; multiphysics disciplines run down — every sub-domain has different tools and people, and we unify them on one foundation. That is the structural difference from point tools (Ansys / MATLAB).",
+    "stages": ["Concept", "Detailed design", "Simulation", "DfM", "Manufacturing"],
+    "stageNote": "Manufacturing is a later phase",
+    "rows": [
+      { "name": "Structural", "cells": ["y", "y", "y", "y", "soon"] },
+      { "name": "Thermal", "cells": ["y", "y", "y", "y", "soon"] },
+      { "name": "Fluid", "cells": ["y", "y", "y", "y", "soon"] },
+      { "name": "EM", "cells": ["y", "y", "y", "y", "soon"] },
+      { "name": "Electronics PCB", "cells": ["y", "y", "y", "y", "soon"] },
+      { "name": "Control", "cells": ["y", "y", "y", "y", "soon"] }
+    ],
+    "governance": "Governance built in: tool allow-list · full-chain audit · one-click rollback · tiered approval (human-in-the-loop)."
   },
   "evolution": {
-    "titleBefore": "Human-AI co-evolution — ",
-    "titleEm": "smarter the more you use it",
+    "titleBefore": "Smarter the more you use it —— ",
+    "titleEm": "a self-evolving industrial engineering engine",
     "titleAfter": ".",
-    "lead": "Every human review, every agent execution, every failure attribution feeds the knowledge engine. M0 session memory → M1 project memory → M2 organizational memory — after one year, a customer's agent is 10× smarter than a new one.",
-    "chart": {
-      "head": "— Evolution dashboard · last 12 months —",
-      "now": "95",
-      "legend": { "0": "Autonomous rate", "1": "First-pass rate", "2": "Intervention frequency" }
+    "lead": "Every human review and every agent run feeds the knowledge engine: M0 instant memory → M1 project memory → M2 organizational memory, plus end-to-end RL, so the agent learns your engineering the more you use it.",
+    "evidence": "The capability is grounded in a public benchmark: our in-house agent core tops GAIA worldwide (91.36).",
+    "future": "The endgame is a “smarter the more you use it” flywheel on the factory floor — more use, thicker engineering data, stronger models. (Capability evolves with deployment.)",
+    "mechanism": {
+      "0": { "k": "M0 · Instant memory", "v": "Context and skills captured within a single session." },
+      "1": { "k": "M1 · Project memory", "v": "Experience reused across tasks within one program." },
+      "2": { "k": "M2 · Org memory", "v": "Tacit organizational knowledge structured and transferred across projects." },
+      "3": { "k": "RL · End-to-end", "v": "Rewarded by real engineering outcomes, closing the loop to keep self-iterating." }
     },
-    "stats": {
-      "0": { "h5": "Autonomous rate", "body": "60% → 95%; the tipping point hit at M6.", "val": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">95</em>%", "delta": "↑ 35pp · 12m" },
-      "1": { "h5": "Intervention frequency", "body": "From 5/task → 0.4/task. Expert time freed > 80%.", "val": "0.4<span style=\"font-size:15px;color:rgba(255,255,255,0.5)\">/task</span>", "delta": "↓ 92% · 12m" },
-      "2": { "h5": "First-pass rate", "body": "Design → Verify pass rate on the first loop.", "val": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">92</em>%", "delta": "↑ 22pp · 12m" },
-      "3": { "h5": "Knowledge coverage", "body": "Share of tacit organizational knowledge now structured in M2.", "val": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">87</em>%", "delta": "↑ 47pp · 12m" }
+    "curveLabel": "Illustrative · smarter over time"
+  },
+  "industries": {
+    "titleBefore": "From the rocket-and-satellite proving ground, ",
+    "titleEm": "replicated across high-end manufacturing",
+    "titleAfter": ".",
+    "lead": "Prove it first in the hardest, most homologous aerospace domain, then replicate along the capability axis to more industries.",
+    "items": {
+      "0": {
+        "code": "01",
+        "name": "Commercial space · launch & satellite",
+        "pain": "Aero / structural / thermal multiphysics is simulation-heavy; iteration is slow and costly.",
+        "land": "Speed up concept-to-validation across the flow with coupled multiphysics.",
+        "expand": "Prove the template → replicate to more commercial-space customers."
+      },
+      "1": {
+        "code": "02",
+        "name": "eVTOL · low-altitude economy",
+        "pain": "New airframes iterate fast; whole-aircraft simulation demand is high; airworthiness pressure is heavy.",
+        "land": "Rapid configuration iteration plus whole-aircraft multiphysics validation.",
+        "expand": "A national-strategy tailwind with strong demand."
+      },
+      "2": {
+        "code": "03",
+        "name": "State-machinery manufacturing",
+        "pain": "Heavy equipment / precision manufacturing; a long design-to-make chain.",
+        "land": "Design-for-Manufacturing (DfM) and connected design-to-manufacturing data.",
+        "expand": "Enter the vast manufacturing base via industrial-software partnerships."
+      }
+    },
+    "more": {
+      "label": "Next to expand",
+      "chips": ["Aviation", "Automotive", "Robotics", "Semiconductor", "Energy storage"]
     }
   },
-  "market": {
-    "titleLine1": "Commercial aerospace is the wedge —",
-    "titleEm": "a trillion-yuan engineering-services market",
-    "titleAfter": " is the prize.",
-    "lead": "One Core OS, many Industry Packs — replicate from aerospace into UAV, heavy equipment, and energy. Layer 1 (¥20-40B core platform) is well-defined; Layer 2 (¥50-120B productized capacity) is the growth surface.",
-    "tam": {
-      "ringLabels": {
-        "0": "Layer 3 · ¥200-500B",
-        "1": "Layer 2 · ¥50-120B",
-        "2": "Layer 1 · ¥20-40B",
-        "som": "Y5 · ¥0.8-1.5B"
-      },
-      "layers": [
-        { "ix": "L3", "h5": "Long-term value pool", "body": "AI reshaping knowledge-intensive engineering labor", "value": "¥200-500<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">B</em>" },
-        { "ix": "L2", "h5": "Engineering capacity, productized", "body": "Validation / change / delivery / ops at production scale", "value": "¥50-120<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">B</em>" },
-        { "ix": "L1", "h5": "Core platform software", "body": "AI-native engineering collaboration & execution layer", "value": "¥20-40<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">B</em>" },
-        { "ix": "SAM", "h5": "Top 5 industries", "body": "Aerospace / aero-supply / UAV / heavy equipment / energy", "value": "¥10-25<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">B</em>" },
-        { "ix": "SOM", "h5": "Y5 realistic capture", "body": "Pro + Team + Enterprise + OrbitOps", "value": "¥<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">0.8-1.5</em>B" }
-      ]
-    },
-    "compete": {
-      "h3": "Competition × moat",
-      "header": ["Dimension", "3studio", "Epsilon3", "Synera", "Generic LLM", "Build in-house"],
-      "rows": [
-        { "rh": "Multi-human, multi-agent", "cells": [ { "text": "● native", "level": "y" }, { "text": "— none", "level": "n" }, { "text": "— none", "level": "n" }, { "text": "○ single-turn", "level": "p" }, { "text": "◐ single agent", "level": "p" } ] },
-        { "rh": "Deep tool calls", "cells": [ { "text": "● MATLAB/STK/CAE", "level": "y" }, { "text": "— none", "level": "n" }, { "text": "◐ shallow params", "level": "p" }, { "text": "— none", "level": "n" }, { "text": "◐ DIY", "level": "p" } ] },
-        { "rh": "Harness governance", "cells": [ { "text": "● full", "level": "y" }, { "text": "— none", "level": "n" }, { "text": "— none", "level": "n" }, { "text": "— none", "level": "n" }, { "text": "— DIY", "level": "n" } ] },
-        { "rh": "Quantified evolution", "cells": [ { "text": "● M0/M1/M2 + RL", "level": "y" }, { "text": "— none", "level": "n" }, { "text": "— none", "level": "n" }, { "text": "◐ shallow", "level": "p" }, { "text": "— DIY", "level": "n" } ] },
-        { "rh": "Industry depth", "cells": [ { "text": "● aerospace → cross-sector", "level": "y" }, { "text": "◐ aerospace ops", "level": "p" }, { "text": "— shallow", "level": "n" }, { "text": "— shallow", "level": "n" }, { "text": "◐ depends on spend", "level": "p" } ] }
-      ]
-    }
+  "company": {
+    "titleBefore": "Building the ",
+    "titleEm": "“self-evolving design brain”",
+    "titleAfter": " for China’s high-end manufacturing.",
+    "vision": "Others build tools; we build an industrial engine that evolves itself. Starting from the rocket-and-satellite proving ground, we connect design → validation → manufacturing into a closed loop.",
+    "gene": "A team combining Tsinghua-rooted AI, aerospace engineering, and EDA commercialization backgrounds.",
+    "market": "From the proving ground to a trillion-scale industrial design market — deep on the capability axis, wide on the industry axis."
   },
   "cta": {
-    "kicker": "— Start your first workspace —",
+    "kicker": "— Hand the hardest engineering to an AI that evolves —",
     "titleBefore": "Start from the hardest",
-    "titleEm": "single satellite",
+    "titleEm": "factory floor",
     "titleAfter": ".",
-    "lead": "Cursor built the AI-native platform for software engineering. 3Studio is building it for hardware and systems engineering.",
-    "button": "Book an enterprise demo",
-    "subject": "Book a 3Studio enterprise demo"
+    "lead": "Enterprise teams book a 3Studio demo; individual engineers can try vibe CAE directly.",
+    "primary": "Book a demo",
+    "secondary": "Try vibe CAE",
+    "subject": "Book a 7dawn · 3Studio demo"
   },
   "platform": {
+    "illustrative": "Illustrative data",
     "stats": {
       "0": { "num": "5<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">+</em>", "lbl": "Workspaces" },
-      "1": { "num": "M0<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">→</em>M2", "lbl": "Three-tier memory" },
-      "2": { "num": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">99</em>%", "lbl": "Auditable execution" },
-      "3": { "num": "4<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">×</em>", "lbl": "Industry Packs" }
+      "1": { "num": "M0<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">→</em>M2", "lbl": "3-tier memory + RL" },
+      "2": { "num": "Full", "lbl": "Auditable · Reversible" },
+      "3": { "num": "6<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">+</em>", "lbl": "Multiphysics disciplines" }
     },
     "switcher": {
-      "title": "— 3Studio Platform · Workspace Switcher —",
-      "live": "LIVE · switch like Notion / Figma",
+      "title": "— 3Studio · Workspace Switcher —",
+      "live": "LIVE · switch like Notion/Figma",
       "metricsLabel": "Metrics"
     },
     "foot": {
-      "industry": "Industry config: Aerospace Pack · STK / MATLAB / Thermal Desktop / GJB",
-      "orbitops": "OrbitOps = Operate + Aerospace Pack"
+      "industry": "Industry pack: Commercial Space · multiphysics toolchain",
+      "orbitops": "OrbitOps = Operate + Commercial Space Pack"
     },
     "tabs": {
-      "design":  { "code": "S-01", "nameEm": "Design",  "nameText": "Design Space",  "sub": "Agents do design" },
-      "verify":  { "code": "S-02", "nameEm": "Verify",  "nameText": "Verify Space",  "sub": "Agents run verification" },
-      "flow":    { "code": "S-03", "nameEm": "Flow",    "nameText": "Flow Space",    "sub": "Multi-human, multi-agent flow" },
-      "operate": { "code": "S-04", "nameEm": "Operate", "nameText": "Operate Space", "sub": "Monitor + anomaly response" },
-      "command": { "code": "S-05", "nameEm": "Command", "nameText": "Command Space", "sub": "Oversight + evolution" }
+      "design": { "code": "S-01", "nameEm": "Design", "nameText": "Design", "sub": "Agents do design" },
+      "verify": { "code": "S-02", "nameEm": "Verify", "nameText": "Verify", "sub": "Agents do verification" },
+      "flow": { "code": "S-03", "nameEm": "Flow", "nameText": "Flow", "sub": "Multi-agent hand-off" },
+      "operate": { "code": "S-04", "nameEm": "Operate", "nameText": "Operate", "sub": "Monitor + triage" },
+      "command": { "code": "S-05", "nameEm": "Command", "nameText": "Command", "sub": "PMO + evolution" }
     },
     "bodies": {
       "design": {
         "title": "Running · Design Session #DS-204",
         "steps": [
-          { "ix": "T-01", "name": "STK orbit sim · 500km SSO", "st": "pass" },
-          { "ix": "T-02", "name": "MATLAB control law design", "st": "pass" },
-          { "ix": "T-03", "name": "Parameter sweep 52/100 · DOE", "st": "run" },
-          { "ix": "T-04", "name": "Multi-discipline interface check", "st": "wait" },
+          { "ix": "T-01", "name": "Orbit simulation · 500km SSO", "st": "pass" },
+          { "ix": "T-02", "name": "Control-law design", "st": "pass" },
+          { "ix": "T-03", "name": "Parameter sweep · DOE", "st": "run" },
+          { "ix": "T-04", "name": "Cross-discipline interface check", "st": "wait" },
           { "ix": "T-05", "name": "Generate design package · Draft", "st": "wait" }
         ],
         "stats": [
           { "k": "Active agents", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">4</em> · Orbit / ATC / DOE / Doc" },
-          { "k": "Param exploration", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">52</em> / 100" },
-          { "k": "Design cycle", "v": "3w → <em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">5d</em>" },
-          { "k": "First-pass rate", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">92</em>%" }
+          { "k": "Exploration", "v": "Many in parallel · DOE" },
+          { "k": "Design cycle", "v": "weeks → <em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">days</em>" },
+          { "k": "Status", "v": "Illustrative run" }
         ]
       },
       "verify": {
         "title": "Running · Verify Session #VR-081",
         "steps": [
-          { "ix": "V-01", "name": "Parse GJB standards → test matrix", "st": "pass" },
-          { "ix": "V-02", "name": "Thermal Desktop · hot-soak", "st": "pass" },
-          { "ix": "V-03", "name": "Thermal Desktop · cold-survival", "st": "pass" },
-          { "ix": "V-04", "name": "Vibration sim · sine / random", "st": "run" },
-          { "ix": "V-05", "name": "Failure attribution", "st": "wait" }
+          { "ix": "V-01", "name": "Parse standards → test matrix", "st": "pass" },
+          { "ix": "V-02", "name": "Thermal sim · hot-soak", "st": "pass" },
+          { "ix": "V-03", "name": "Thermal sim · cold-survival", "st": "pass" },
+          { "ix": "V-04", "name": "Vibration sim · sine/random", "st": "run" },
+          { "ix": "V-05", "name": "Root-cause failed items", "st": "wait" }
         ],
         "stats": [
-          { "k": "Test items", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">216</em>" },
-          { "k": "Completed", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">168</em> / 216" },
-          { "k": "Coverage", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">99.2</em>%" },
-          { "k": "Miss rate", "v": "↓ <em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">70</em>%" }
+          { "k": "Test items", "v": "hundreds to thousands" },
+          { "k": "Coverage", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">high</em>" },
+          { "k": "Miss-rate", "v": "↓ <em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">70</em>%" },
+          { "k": "Status", "v": "Illustrative run" }
         ]
       },
       "flow": {
         "title": "Running · Change Request #CR-0417",
         "steps": [
-          { "ix": "F-01", "name": "Parse change · solar array 60° → 62°", "st": "pass" },
-          { "ix": "F-02", "name": "Impact-chain trace · 6 modules", "st": "pass" },
-          { "ix": "F-03", "name": "Generate impact report", "st": "pass" },
-          { "ix": "F-04", "name": "Tiered approval · chief engineer signature", "st": "wait" },
-          { "ix": "F-05", "name": "Downstream docs / BOM update", "st": "wait" }
+          { "ix": "F-01", "name": "Parse change · solar wing 60° → 62°", "st": "pass" },
+          { "ix": "F-02", "name": "Impact trace · multiple modules", "st": "pass" },
+          { "ix": "F-03", "name": "Generate impact assessment", "st": "pass" },
+          { "ix": "F-04", "name": "Tiered approval · awaiting human review", "st": "wait" },
+          { "ix": "F-05", "name": "Update downstream docs / BOM", "st": "wait" }
         ],
         "stats": [
-          { "k": "Affected modules", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">6</em> · structure / thermal / power / attitude / BOM / doc" },
-          { "k": "Approval tier", "v": "L2 chief → L1 quality" },
-          { "k": "Change cycle", "v": "4w → <em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">3d</em>" },
-          { "k": "Miss rate", "v": "↓ <em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">80</em>%" }
+          { "k": "Modules affected", "v": "struct/thermal/elec/attitude/BOM/docs" },
+          { "k": "Approval tier", "v": "L2 review → L1 quality" },
+          { "k": "Change cycle", "v": "weeks → <em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">days</em>" },
+          { "k": "Miss rate", "v": "markedly lower" }
         ]
       },
       "operate": {
-        "title": "LIVE · OrbitOps · 104 satellites",
+        "title": "LIVE · OrbitOps · constellation",
         "steps": [
-          { "ix": "O-01", "name": "Telemetry ingest · 104 in-orbit", "st": "pass" },
-          { "ix": "O-02", "name": "Anomaly detection · sat #37 power", "st": "pass" },
-          { "ix": "O-03", "name": "RCA · correlate history #2024-ST-19", "st": "run" },
-          { "ix": "O-04", "name": "Runbook recommend · power switch", "st": "wait" },
-          { "ix": "O-05", "name": "Human confirm response plan", "st": "wait" }
+          { "ix": "O-01", "name": "Telemetry ingest · constellation", "st": "pass" },
+          { "ix": "O-02", "name": "Anomaly · single-sat power", "st": "pass" },
+          { "ix": "O-03", "name": "RCA · correlate past cases", "st": "run" },
+          { "ix": "O-04", "name": "Recommend runbook · power switch", "st": "wait" },
+          { "ix": "O-05", "name": "Human-confirm response plan", "st": "wait" }
         ],
         "stats": [
-          { "k": "In-orbit sats", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">104</em> · 98% healthy" },
+          { "k": "On-orbit", "v": "constellation · healthy" },
           { "k": "Anomaly response", "v": "hours → <em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">minutes</em>" },
-          { "k": "Ops headcount", "v": "50 → <em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">10</em>" },
-          { "k": "Yearly savings", "v": "¥ <em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">12</em>M" }
+          { "k": "Ops staffing", "v": "many sats / one person" }
         ]
       },
       "command": {
-        "title": "Command · Program dashboard",
+        "title": "Command · Project dashboard",
         "steps": [
-          { "ix": "P-01", "name": "Satellite XX-3 progress · 82%", "st": "pass" },
+          { "ix": "P-01", "name": "Key model overall progress · 82%", "st": "pass" },
           { "ix": "P-02", "name": "Risk · thermal margin tightening", "st": "run" },
-          { "ix": "P-03", "name": "Milestone · AIT kickoff D-14", "st": "run" },
-          { "ix": "P-04", "name": "Evolution · autonomous rate rising", "st": "pass" },
-          { "ix": "P-05", "name": "Resource · GPU / sim cluster 68%", "st": "wait" }
+          { "ix": "P-03", "name": "Milestone · AIT start D-14", "st": "run" },
+          { "ix": "P-04", "name": "Evolution · autonomy rising", "st": "pass" },
+          { "ix": "P-05", "name": "Resource · sim cluster usage", "st": "wait" }
         ],
         "stats": [
-          { "k": "Active programs", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">7</em> · 3 priority" },
-          { "k": "Autonomous rate", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">95</em>%" },
-          { "k": "Intervention", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">0.4</em> / task" },
-          { "k": "Knowledge coverage", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">87</em>%" }
+          { "k": "Active projects", "v": "multiple models" },
+          { "k": "Agent autonomy", "v": "rising" },
+          { "k": "Human intervention", "v": "falling" },
+          { "k": "Knowledge coverage", "v": "expanding" }
         ]
       }
     }
   },
   "footer": {
-    "copy": "© 2026 7DAWN",
-    "city": "BEIJING"
+    "copy": "© 2026 7DAWN · Singularity Dawn",
+    "city": "BEIJING",
+    "nav": {
+      "products": "Products",
+      "platform": "Platform",
+      "industries": "Industries",
+      "docs": "Docs",
+      "download": "Try vibe CAE",
+      "company": "Company"
+    }
+  },
+  "docs": {
+    "label": "// DOCS",
+    "title": "Docs in progress",
+    "body": "7dawn product documentation is being built. Leave your email and we’ll notify you the moment it goes live.",
+    "cta": "Contact us",
+    "subject": "Notify me when 7dawn docs launch",
+    "back": "← Back to home"
+  },
+  "download": {
+    "label": "// vibe CAE",
+    "title": "vibe CAE — early access",
+    "body": "vibe CAE is opening early access — natural-language multiphysics simulation, upload CAD / STEP and run. Request a spot on the early-access list.",
+    "cta": "Request early access",
+    "subject": "Request vibe CAE early access",
+    "back": "← Back to home"
   }
 }

@@ -11,8 +11,8 @@ export default function Problem() {
       <div className="mx-auto max-w-[1280px]">
         <ScrollReveal>
           <SectionHeader
-            idx="Problem"
-            kicker="02 / 06"
+            idx="/problem"
+            kicker="PROBLEM"
             title={
               <>
                 {t("titleLine1")}
@@ -43,6 +43,12 @@ export default function Problem() {
             </div>
           ))}
         </div>
+
+        <ScrollReveal className="mt-10 border-t border-white/20 pt-5">
+          <p className="max-w-[80ch] font-mono text-[13px] leading-[1.7] tracking-[0.2px] text-white/70">
+            {t("whyNow")}
+          </p>
+        </ScrollReveal>
       </div>
     </section>
   );

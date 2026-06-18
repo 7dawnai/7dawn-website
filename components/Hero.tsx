@@ -1,8 +1,11 @@
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import Link from "next/link";
 import FogCanvas from "./FogCanvas";
 
 export default function Hero() {
   const t = useTranslations("hero");
+  const tc = useTranslations("cta");
+  const locale = useLocale();
 
   return (
     <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 pt-32 pb-12 md:px-12">
@@ -15,15 +18,22 @@ export default function Hero() {
           {t("title1")}<br />
           <span className="text-white/50">{t("title2")}</span>
         </h1>
-        <p className="mx-auto mb-14 max-w-[640px] text-base leading-[1.5] text-white/70 md:text-lg lg:text-xl">
-          {t("sub")}
+        <p className="mx-auto mb-12 max-w-[680px] text-base leading-[1.55] text-white/70 md:text-lg lg:text-xl">
+          <span className="text-white/50">{t("subEm")}</span>
+          <br className="hidden sm:block" />
+          {" "}{t("sub")}
         </p>
-        <a
-          href="#contact"
-          className="inline-block bg-white px-7 py-3.5 font-mono text-sm uppercase tracking-[1.4px] text-[#1f2228] transition-colors hover:bg-white/90"
-        >
-          {t("cta")} →
-        </a>
+        <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <a
+            href={`mailto:contact@7dawn.ai?subject=${encodeURIComponent(tc("subject"))}`}
+            className="btn btn-primary px-7 py-3.5"
+          >
+            {t("ctaPrimary")}
+          </a>
+          <Link href={`/${locale}/download`} className="btn btn-secondary px-7 py-3.5">
+            {t("ctaSecondary")} →
+          </Link>
+        </div>
       </div>
       <div className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 font-mono text-[11px] uppercase tracking-[2px] text-white/30">
         {t("scroll")}

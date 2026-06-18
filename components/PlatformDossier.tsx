@@ -47,7 +47,10 @@ export default function PlatformDossier() {
         {/* Switcher head */}
         <div className="mb-5 mt-14 flex flex-wrap items-baseline justify-between gap-4">
           <h4 className="font-mono text-[11px] uppercase tracking-[2px] text-white/50">{t("switcher.title")}</h4>
-          <span className="chip"><span className="pulse-dot" />{t("switcher.live")}</span>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="chip text-white/40">{t("illustrative")}</span>
+            <span className="chip"><span className="pulse-dot" />{t("switcher.live")}</span>
+          </div>
         </div>
 
         {/* Tabs */}

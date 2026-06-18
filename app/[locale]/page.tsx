@@ -1,16 +1,14 @@
 import { setRequestLocale } from "next-intl/server";
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
-import Pitch from "@/components/Pitch";
-import PlatformDossier from "@/components/PlatformDossier";
-import WhyNow from "@/components/WhyNow";
+import TrustBar from "@/components/TrustBar";
 import Problem from "@/components/Problem";
-import Spaces from "@/components/Spaces";
-import Architecture from "@/components/Architecture";
-import Harness from "@/components/Harness";
-import Scenarios from "@/components/Scenarios";
+import Products from "@/components/Products";
+import PlatformDossier from "@/components/PlatformDossier";
+import CapabilityMatrix from "@/components/CapabilityMatrix";
 import Evolution from "@/components/Evolution";
-import Market from "@/components/Market";
+import Industries from "@/components/Industries";
+import Company from "@/components/Company";
 import CTAContact from "@/components/CTAContact";
 import Footer from "@/components/Footer";
 
@@ -27,16 +25,14 @@ export default async function Home({
       <Nav />
       <main>
         <Hero />
-        <Pitch />
-        <PlatformDossier />
-        <WhyNow />
+        <TrustBar />
         <Problem />
-        <Spaces />
-        <Architecture />
-        <Harness />
-        <Scenarios />
+        <Products />
+        <PlatformDossier />
+        <CapabilityMatrix />
         <Evolution />
-        <Market />
+        <Industries />
+        <Company />
         <CTAContact />
       </main>
       <Footer />

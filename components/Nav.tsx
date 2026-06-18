@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import LangSwitch from "./LangSwitch";
 
@@ -14,19 +14,41 @@ function Logo() {
 
 export default function Nav() {
   const t = useTranslations("nav");
+  const tc = useTranslations("cta");
+  const locale = useLocale();
+
+  const links = [
+    { href: `/${locale}#products`, label: t("products") },
+    { href: `/${locale}#platform`, label: t("platform") },
+    { href: `/${locale}#industries`, label: t("industries") },
+    { href: `/${locale}/docs`, label: t("docs") },
+    { href: `/${locale}#company`, label: t("company") },
+  ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 md:px-12 border-b border-white/10 backdrop-blur-md bg-[#1f2228]/75">
-      <Link href="#" className="block text-white transition-colors hover:text-white/50" aria-label="7dawn">
+    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between gap-4 px-6 py-4 md:px-12 border-b border-white/10 backdrop-blur-md bg-[#1f2228]/75">
+      <Link href={`/${locale}`} className="block text-white transition-colors hover:text-white/50" aria-label="7dawn">
         <Logo />
       </Link>
-      <ul className="hidden md:flex gap-8 list-none">
-        <li><a href="#spaces" className="text-white text-sm transition-colors hover:text-white/50">{t("spaces")}</a></li>
-        <li><a href="#harness" className="text-white text-sm transition-colors hover:text-white/50">{t("harness")}</a></li>
-        <li><a href="#evolution" className="text-white text-sm transition-colors hover:text-white/50">{t("evolution")}</a></li>
-        <li><a href="#market" className="text-white text-sm transition-colors hover:text-white/50">{t("market")}</a></li>
+      <ul className="hidden lg:flex gap-7 list-none">
+        {links.map((l) => (
+          <li key={l.href}>
+            <a href={l.href} className="text-white text-sm transition-colors hover:text-white/50">{l.label}</a>
+          </li>
+        ))}
       </ul>
-      <LangSwitch />
+      <div className="flex items-center gap-3">
+        <a
+          href={`mailto:contact@7dawn.ai?subject=${encodeURIComponent(tc("subject"))}`}
+          className="btn btn-primary hidden px-4 py-2 md:inline-flex"
+        >
+          {t("demo")}
+        </a>
+        <Link href={`/${locale}/download`} className="btn btn-secondary hidden px-4 py-2 md:inline-flex">
+          {t("tryVibe")} →
+        </Link>
+        <LangSwitch />
+      </div>
     </nav>
   );
 }

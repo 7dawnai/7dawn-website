@@ -15,6 +15,7 @@
         { "path": "guides/files.md", "title": "工作区与文件" },
         { "path": "guides/replay.md", "title": "回放" },
         { "path": "guides/settings.md", "title": "设置与通知" },
+        { "path": "guides/commercial-license.md", "title": "商业版授权" },
         { "path": "guides/mcp.md", "title": "MCP 扩展工具" },
         { "path": "guides/mbse.md", "title": "MBSE 系统建模" }
       ]
@@ -25,7 +26,10 @@
         { "path": "guides/cae-overview.md", "title": "概览与通用设置" },
         { "path": "guides/matlab.md", "title": "MATLAB 与 Simulink" },
         { "path": "guides/stk.md", "title": "STK" },
-        { "path": "guides/ansys.md", "title": "Ansys" }
+        { "path": "guides/ansys.md", "title": "Ansys" },
+        { "path": "guides/creo.md", "title": "Creo" },
+        { "path": "guides/hypermesh.md", "title": "HyperMesh" },
+        { "path": "guides/nastran.md", "title": "Nastran" }
       ]
     },
     {

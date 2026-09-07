@@ -1,7 +1,7 @@
 ---
 title: 快速上手
 description: 从安装启动到第一次让 Agent 干活的完整入门路径。
-last_verified_commit: fce2e0fc9d79
+last_verified_commit: f2e3ff29655f
 ---
 
 # 快速上手
@@ -71,5 +71,5 @@ last_verified_commit: fce2e0fc9d79
 - 《[回放](./guides/replay.md)》——回看某次会话中 Computer 面板经历过的状态变化。
 - 《[设置与通知](./guides/settings.md)》——语言切换、模型配置等全局设置。
 - 《[MCP 扩展工具](./guides/mcp.md)》——给 Agent 接入外部工具。
-- 《[支持的 CAE/CAD 软件](./guides/cae-overview.md)》——如果你需要用到 MATLAB、STK 或 Ansys。
+- 《[支持的 CAE/CAD 软件](./guides/cae-overview.md)》——如果你需要用到 MATLAB、STK、Ansys 或 Creo。
 - 《[常见问题](./faq.md)》——遇到问题先来这里看看。

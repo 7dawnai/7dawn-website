@@ -26,6 +26,18 @@ const BANNED = [
   "$20B",
   "104 颗",
   "104 satellites",
+  "multica",
+  "Multica",
+  // BP v4.8 internals: model codename, named competitors, deal terms
+  "EvonStruct",
+  "Prometheus",
+  "SimAI",
+  "PhysicsAI",
+  "临界航天",
+  "雪浪",
+  "羚数",
+  "1000-1500",
+  "200 万 / 年",
 ];
 
 function collectFiles(dir: string, exts: string[]): string[] {

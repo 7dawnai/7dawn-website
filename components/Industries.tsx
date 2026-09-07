@@ -4,11 +4,11 @@ import SectionHeader from "./SectionHeader";
 import SpotlightCard from "./SpotlightCard";
 
 // Fixed, language-neutral mono labels for the three content rows.
-// Body copy comes from i18n (pain / land / expand); these short caps stay constant across locales.
+// Body copy comes from i18n (scope / deliver / gain); these short caps stay constant across locales.
 const ROWS = [
-  { label: "PAIN", key: "pain" },
-  { label: "LAND", key: "land" },
-  { label: "EXPAND", key: "expand" },
+  { label: "SCOPE", key: "scope" },
+  { label: "DELIVER", key: "deliver" },
+  { label: "GAIN", key: "gain" },
 ] as const;
 
 export default function Industries() {

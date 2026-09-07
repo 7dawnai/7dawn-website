@@ -10,10 +10,10 @@ export default function TrustBar() {
         <ScrollReveal>
           {/* Border-separated credibility grid */}
           <div className="grid grid-cols-1 gap-px border border-white/10 bg-white/10 sm:grid-cols-3">
-            {/* Leak */}
+            {/* Design-simulation cycle */}
             <div className="flex flex-col bg-bg px-6 py-7">
-              <div className="stat-value">{t("leak.value")}</div>
-              <p className="stat-label">{t("leak.note")}</p>
+              <div className="stat-value">{t("cycle.value")}</div>
+              <p className="stat-label">{t("cycle.note")}</p>
             </div>
 
             {/* Scope */}

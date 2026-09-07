@@ -2,9 +2,13 @@ import { useTranslations } from "next-intl";
 import ScrollReveal from "./ScrollReveal";
 import SectionHeader from "./SectionHeader";
 
+// X positions for the four curve ticks; labels come from i18n.
+const TICK_X = [40, 200, 430, 700];
+
 export default function Evolution() {
   const t = useTranslations("evolution");
   const mechanism = [0, 1, 2, 3] as const;
+  const ticks = t.raw("ticks") as string[];
 
   return (
     <section id="evolution" className="relative border-t border-white/10 px-6 py-20 md:px-12 md:py-32">
@@ -40,10 +44,11 @@ export default function Evolution() {
                 <line x1="0" y1="250" x2="800" y2="250" />
               </g>
               <g fontFamily="Geist Mono, monospace" fontSize="10" fill="rgba(255,255,255,0.3)">
-                <text x="40" y="292">M0</text>
-                <text x="200" y="292">M1</text>
-                <text x="430" y="292">M2</text>
-                <text x="700" y="292">RL</text>
+                {ticks.map((label, i) => (
+                  <text key={label} x={TICK_X[i]} y="292">
+                    {label}
+                  </text>
+                ))}
               </g>
               <path d="M40 240 C 120 230, 180 210, 240 180 S 380 140, 460 100 S 620 60, 780 50" stroke="#ffffff" strokeWidth="2.2" fill="none" />
               <path d="M40 240 C 120 230, 180 210, 240 180 S 380 140, 460 100 S 620 60, 780 50 L 780 280 L 40 280 Z" fill="rgba(255,255,255,0.05)" />

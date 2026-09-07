@@ -5,7 +5,7 @@ import SpotlightCard from "./SpotlightCard";
 
 export default function Problem() {
   const t = useTranslations("problem");
-  const items = [0, 1, 2, 3, 4, 5] as const;
+  const items = [0, 1, 2] as const;
 
   return (
     <section id="problem" className="relative border-t border-white/10 px-6 py-20 md:px-12 md:py-32">

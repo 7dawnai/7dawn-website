@@ -123,8 +123,13 @@ export default function CapabilityMatrix() {
           {t("stageNote")}
         </p>
 
-        {/* Governance promise */}
+        {/* Supported CAD/CAE toolchain */}
         <p className="mt-8 text-[13px] leading-relaxed text-white/50">
+          {t("tools")}
+        </p>
+
+        {/* Governance promise */}
+        <p className="mt-3 text-[13px] leading-relaxed text-white/50">
           {t("governance")}
         </p>
       </div>

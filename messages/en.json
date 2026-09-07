@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "7dawn · The Self-Evolving Industrial AI Engineer",
-    "description": "7dawn makes AI do real engineering on the factory floor — from concept design to multiphysics validation to manufacturing. 3Studio is the AI engineering workspace for high-end manufacturing teams."
+    "title": "7dawn · Self-Evolving Physical AI",
+    "description": "7dawn builds self-evolving physical AI. Starting from design and simulation in commercial space, landing in industrial design, extending into manufacturing — the model keeps learning in real industry and gets more accurate with use."
   },
   "nav": {
     "products": "Products",
@@ -17,21 +17,21 @@
   },
   "hero": {
     "label": "// 7DAWN · SINGULARITY DAWN",
-    "title1": "AI that does real engineering",
-    "title2": "— and evolves.",
-    "subEm": "A self-evolving industrial engineering engine",
-    "sub": "From concept design to multiphysics validation to manufacturing — gets smarter the more you use it.",
+    "title1": "Self-evolving",
+    "title2": "physical AI",
+    "subEm": "From commercial space into industrial design and manufacturing",
+    "sub": "The model keeps learning in real industry and gets more accurate with use.",
     "cta": "Contact us",
     "scroll": "SCROLL"
   },
   "trust": {
-    "leak": {
-      "value": "Verification miss-rate ↓70%",
-      "note": "Aerospace test-matrix scenario · internal baseline, not a global promise"
+    "cycle": {
+      "value": "Tens of days → days",
+      "note": "Design-simulation iteration cycle · joint trials in the satellite domain"
     },
     "scope": {
       "value": "Full process",
-      "note": "Concept design → manufacturing"
+      "note": "Design → simulation → manufacturing"
     },
     "physics": {
       "value": "Multiphysics",
@@ -40,72 +40,61 @@
     "badge": "Auditable · Reversible · Human-in-the-loop"
   },
   "problem": {
-    "titleLine1": "Industrial R&D is slow and costly —— ",
-    "titleEm": "costlier still is the design you never got to make",
+    "titleLine1": "The bottleneck in industrial design moved from",
+    "titleEm": "“can we compute it” to “can we verify it fast”",
     "titleAfter": ".",
-    "lead": "It is not a missing AI feature, but a missing AI that does real engineering on the floor and can be trusted. A complex design crosses 10+ tools, validation runs for weeks, and rework eats a large share of the schedule.",
+    "lead": "Programs slip and tests fail because the design-verification cycle is the constraint, not compute. In the physical world a general large model is jagged: its world model is too coarse, like approximating a real field on a crude mesh. It only sharpens round by round on feedback from real simulation and measurement.",
     "items": {
       "0": {
         "no": "01",
-        "tag": "Silos",
-        "h4": "Tool silos",
-        "body": "CAD / CAE / EDA / simulation / standards — engineers shuttle data by hand across a dozen windows.",
-        "quant": "~1/4 of work hours"
+        "tag": "Verify",
+        "h4": "Verification rests on people",
+        "body": "One round of model → simulate → redesign, with a separate toolset for structural, thermal, fluid and EM, and a human wiring them together.",
+        "quant": "A round takes tens of days"
       },
       "1": {
         "no": "02",
-        "tag": "Knowledge",
-        "h4": "Knowledge locked in heads",
-        "body": "“Which boundary does this parameter touch” lives only in a senior chief engineer’s head; people leave, knowledge scatters.",
-        "quant": "Ramp-up takes months"
+        "tag": "Expertise",
+        "h4": "Judgment rests on a few experts",
+        "body": "The judgment behind a program lives in a handful of chief engineers and walks out with them; the next program starts over.",
+        "quant": "People leave, knowledge resets"
       },
       "2": {
         "no": "03",
-        "tag": "Hand-off",
-        "h4": "Broken cross-discipline hand-off",
-        "body": "Structural, thermal and EM all couple; cross-discipline impact travels via meetings, and rework stays high.",
-        "quant": "Rework eats the schedule"
-      },
-      "3": {
-        "no": "04",
-        "tag": "Verify",
-        "h4": "Verification is mostly manual",
-        "body": "Hundreds to thousands of test items per model — configure, run, compare, write reports, one by one.",
-        "quant": "A round takes weeks"
-      },
-      "4": {
-        "no": "05",
-        "tag": "Explore",
-        "h4": "No room to explore better designs",
-        "body": "All the time goes to running process; the better configurations that would actually win never get tried.",
-        "quant": "Missed designs, uncounted"
-      },
-      "5": {
-        "no": "06",
-        "tag": "Trust",
-        "h4": "Black-box AI is unusable",
-        "body": "Aerospace / high-end manufacturing — the cost of error is extreme; AI must be auditable, explainable, reversible.",
-        "quant": "Generic LLMs rarely comply"
+        "tag": "Frozen",
+        "h4": "A model ships frozen",
+        "body": "A general large model is fixed at delivery. It does not get more accurate because it is used on this satellite or this engine.",
+        "quant": "No floor access, no improvement"
       }
     },
-    "whyNow": "Why now: models moved from answering to executing, industrial software is going AI-native, and policy is actively pushing industrial agents — the window is opening."
+    "whyNow": "Why now: international capital and domestic policy point the same way at the same moment — pushing AI from chat into the design and manufacture of physical systems. Industrial agents are now a national task with a numeric target, and landing them takes a local version that can get onto the floor."
   },
   "products": {
-    "titleBefore": "7dawn’s flagship product —— ",
-    "titleEm": "3Studio",
+    "titleBefore": "One physical-AI foundation, ",
+    "titleEm": "three ways onto the engineer’s desk",
     "titleAfter": ".",
-    "lead": "An aerospace-grade AI engineering workspace for high-end manufacturing teams.",
+    "lead": "A desktop agent, a team platform, and the vertical model foundation — one base, three ways into the engineering floor.",
     "studio": {
       "name": "3Studio",
-      "for": "For high-end manufacturing teams",
-      "desc": "Let engineering teams run design, verification, flow and operations with an agent crew, fully governed and auditable."
+      "for": "Desktop agent for engineers",
+      "desc": "Environment setup and directory-level agents work out of the box, bringing AI down into an engineer’s daily operations: design, verification, flow and operations, fully governed and auditable."
+    },
+    "aboard": {
+      "name": "Aboard",
+      "for": "Team collaboration platform",
+      "desc": "Treat agents as colleagues: assign work, track progress, raise blockers. People and agents share one board, organizational experience accumulates daily, and the knowledge base stays in sync with the desktop."
+    },
+    "model": {
+      "name": "Vertical model foundation",
+      "for": "Built for the physical world",
+      "desc": "Three model lines: structure generation, multiphysics simulation surrogates, and planning-and-solving. Deployable on-premise, with training data never leaving the customer environment."
     }
   },
   "capability": {
-    "titleBefore": "One self-evolving agent foundation, ",
-    "titleEm": "across the whole industrial design flow",
+    "titleBefore": "Physical AI = vertical models × physical ground truth × ",
+    "titleEm": "continual learning",
     "titleAfter": ".",
-    "lead": "Stages run across; multiphysics disciplines run down — every sub-domain has different tools and people, and we unify them on one foundation. That is the structural difference from point tools (Ansys / MATLAB).",
+    "lead": "The three model lines emit executable structures and solver results, not prose. Every improvement has to clear physical ground truth: simulation and measurement, plus the optimality bound a solver proves for itself. Stages run across, multiphysics disciplines run down, unified on one foundation.",
     "stages": ["Concept", "Detailed design", "Simulation", "DfM", "Manufacturing"],
     "stageNote": "Manufacturing is a later phase",
     "rows": [
@@ -116,62 +105,64 @@
       { "name": "Electronics PCB", "cells": ["y", "y", "y", "y", "soon"] },
       { "name": "Control", "cells": ["y", "y", "y", "y", "soon"] }
     ],
+    "tools": "CAD/CAE toolchain in place: MATLAB / Simulink · STK · Ansys · Creo · HyperMesh · Nastran, extensible to third-party tools over MCP.",
     "governance": "Governance built in: tool allow-list · full-chain audit · one-click rollback · tiered approval (human-in-the-loop)."
   },
   "evolution": {
-    "titleBefore": "Smarter the more you use it —— ",
-    "titleEm": "a self-evolving industrial engineering engine",
+    "titleBefore": "More accurate with use —— ",
+    "titleEm": "self-evolution at three speeds",
     "titleAfter": ".",
-    "lead": "Every human review and every agent run feeds the knowledge engine: M0 instant memory → M1 project memory → M2 organizational memory, plus end-to-end RL, so the agent learns your engineering the more you use it.",
-    "future": "The endgame is a “smarter the more you use it” flywheel on the factory floor — more use, thicker engineering data, stronger models. (Capability evolves with deployment.)",
+    "lead": "Continual learning goes into the model, not into the prompt: seconds to adapt at inference, days to consolidate memory, months to train weights against simulation, measurement and solver optimality bounds.",
+    "future": "The reuse curve is the core metric of this route — for each new physics domain, how many simulation samples fine-tuning saves over training from scratch. (Capability evolves with deployment.)",
     "mechanism": {
-      "0": { "k": "M0 · Instant memory", "v": "Context and skills captured within a single session." },
-      "1": { "k": "M1 · Project memory", "v": "Experience reused across tasks within one program." },
-      "2": { "k": "M2 · Org memory", "v": "Tacit organizational knowledge structured and transferred across projects." },
-      "3": { "k": "RL · End-to-end", "v": "Rewarded by real engineering outcomes, closing the loop to keep self-iterating." }
+      "0": { "k": "Seconds · Inference-time adaptation", "v": "Adapts while reasoning, learning this specific program as it runs." },
+      "1": { "k": "Days · Memory consolidation", "v": "Memory settles and hardens, carries across sessions, stays auditable and reversible." },
+      "2": { "k": "Months · Ground-truth training", "v": "Simulation, measurement and optimality bounds act as reward, training the weights themselves." },
+      "3": { "k": "Two gates · Regression + truth", "v": "General-capability regression past a threshold blocks the update; an improvement without ground truth to judge it does not count." }
     },
-    "curveLabel": "Illustrative · smarter over time"
+    "ticks": ["Start", "Rounds", "Tens", "Ongoing"],
+    "curveLabel": "Illustrative · more accurate with use"
   },
   "industries": {
-    "titleBefore": "From the rocket-and-satellite proving ground, ",
-    "titleEm": "replicated across high-end manufacturing",
+    "titleBefore": "Along one chain of ground truth, ",
+    "titleEm": "from design verification into manufacturing",
     "titleAfter": ".",
-    "lead": "Prove it first in the hardest, most homologous aerospace domain, then replicate along the capability axis to more industries.",
+    "lead": "We advance along the same CAE toolchain, and the physical ground truth gets harder the further we go. One foundation, from design through to production, with every step driven by real demand.",
     "items": {
       "0": {
-        "code": "01",
-        "name": "Commercial space · launch & satellite",
-        "pain": "Aero / structural / thermal multiphysics is simulation-heavy; iteration is slow and costly.",
-        "land": "Speed up concept-to-validation across the flow with coupled multiphysics.",
-        "expand": "Prove the template → replicate to more commercial-space customers."
+        "code": "Now · on the floor",
+        "name": "Satellite systems / structural / mechanics & thermal",
+        "scope": "Five engineering scenarios: systems, control, structural, mechanics and thermal, and MBSE.",
+        "deliver": "Coupled multiphysics simulation with intelligent sampling compresses the design-simulation cycle to days; chief-engineer know-how settles into structured memory.",
+        "gain": "The hardest physical ground truth, a verifiable evaluation protocol, and cross-discipline toolchain orchestration."
       },
       "1": {
-        "code": "02",
-        "name": "eVTOL · low-altitude economy",
-        "pain": "New airframes iterate fast; whole-aircraft simulation demand is high; airworthiness pressure is heavy.",
-        "land": "Rapid configuration iteration plus whole-aircraft multiphysics validation.",
-        "expand": "A national-strategy tailwind with strong demand."
+        "code": "12 months",
+        "name": "Simulation surrogates for engines and electric propulsion",
+        "scope": "Multiple ignitions, deep thrust variation, electric-propulsion thermal design.",
+        "deliver": "Surrogate models over coupled structural, thermal, fluid and EM behaviour, with intelligent sampling to call the high-fidelity solver less.",
+        "gain": "The second and third physics domains, and the first data points on the reuse curve."
       },
       "2": {
-        "code": "03",
-        "name": "State-machinery manufacturing",
-        "pain": "Heavy equipment / precision manufacturing; a long design-to-make chain.",
-        "land": "Design-for-Manufacturing (DfM) and connected design-to-manufacturing data.",
-        "expand": "Enter the vast manufacturing base via industrial-software partnerships."
+        "code": "24 months",
+        "name": "From design verification into the plant",
+        "scope": "Manufacturability checks, process simulation, and the production impact of design changes.",
+        "deliver": "Quality escapes traced back to the design; planning-and-solving takes over scheduling and dispatch.",
+        "gain": "Aerospace-grade design and verification capability, handed to the manufacturing supply base."
       }
     },
     "more": {
-      "label": "Next to expand",
-      "chips": ["Aviation", "Automotive", "Robotics", "Semiconductor", "Energy storage"]
+      "label": "Expanding along the customer pipeline",
+      "chips": ["Aircraft OEMs", "State-machinery manufacturing", "Supply-chain planning", "Equipment", "Auto components", "New-energy supply base"]
     }
   },
   "company": {
-    "titleBefore": "Building the ",
-    "titleEm": "“self-evolving design brain”",
-    "titleAfter": " for China’s high-end manufacturing.",
-    "vision": "Others build tools; we build an industrial engine that evolves itself. Starting from the rocket-and-satellite proving ground, we connect design → validation → manufacturing into a closed loop.",
-    "gene": "A team combining Tsinghua-rooted AI, aerospace engineering, and EDA commercialization backgrounds.",
-    "market": "From the proving ground to a trillion-scale industrial design market — deep on the capability axis, wide on the industry axis."
+    "titleBefore": "Doing physical AI at the ",
+    "titleEm": "compute layer",
+    "titleAfter": ".",
+    "vision": "Others stop at the language and knowledge layer. We go into the compute layer and emit executable structures and solver results, with CAE and EDA tools as the engines we orchestrate underneath.",
+    "gene": "Three things stack up that are ours alone: a physical ground-truth data pipeline, a verifiable evaluation protocol, and access to the floor. The team combines large-model training, EDA commercialization and aerospace program engineering.",
+    "market": "Along the ground-truth chain from design verification into manufacturing — each new physics domain makes the reuse curve cheaper. Deep on the capability axis, wide on the industry axis."
   },
   "cta": {
     "kicker": "— Talk to the 7dawn team —",
@@ -180,13 +171,13 @@
     "titleAfter": ".",
     "lead": "High-end manufacturing teams are welcome to reach out — we work closely with you on requirements and delivery.",
     "primary": "Contact us",
-    "subject": "7dawn · 3Studio enquiry"
+    "subject": "7dawn · Product enquiry"
   },
   "platform": {
     "illustrative": "Illustrative data",
     "stats": {
       "0": { "num": "5<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">+</em>", "lbl": "Workspaces" },
-      "1": { "num": "M0<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">→</em>M2", "lbl": "3-tier memory + RL" },
+      "1": { "num": "sec<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">→</em>mo", "lbl": "Self-evolution at 3 speeds" },
       "2": { "num": "Full", "lbl": "Auditable · Reversible" },
       "3": { "num": "6<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">+</em>", "lbl": "Multiphysics disciplines" }
     },
@@ -235,7 +226,7 @@
         "stats": [
           { "k": "Test items", "v": "hundreds to thousands" },
           { "k": "Coverage", "v": "<em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">high</em>" },
-          { "k": "Miss-rate", "v": "↓ <em style=\"font-style:italic;color:rgba(255,255,255,0.5)\">70</em>%" },
+          { "k": "Misses", "v": "down sharply" },
           { "k": "Status", "v": "Illustrative run" }
         ]
       },
